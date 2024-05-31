@@ -1,0 +1,41 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import plotly.express as px
+
+def get_csv_directory():
+    # Prompt the user for the CSV file location
+    # Return the directory path
+
+def load_data(file_path):
+    # Read the CSV file into a pandas DataFrame
+    # Validate the data (check for missing values, correct types, etc.)
+    # Return the DataFrame
+
+def summary_analysis(df):
+    # Provide summary statistics of the data
+    # Print or save the summary
+
+def scenario_analysis(df):
+    # Perform what-if analysis (e.g., change in expenses or income)
+    # Print or save the results
+
+def exploratory_data_analysis(df):
+    # Create various plots (e.g., bar charts, line charts, etc.)
+    # Save the plots as images or display them
+
+def create_interactive_dashboard(df):
+    # Create an interactive dashboard using Plotly
+    # Display the dashboard in a web browser or save it as an HTML file
+
+def main():
+    # Main function to orchestrate the workflow
+    # Get CSV directory from the user
+    # Load data
+    # Perform summary analysis
+    # Perform scenario analysis
+    # Perform exploratory data analysis
+    # Create an interactive dashboard
+
+if __name__ == "__main__":
+    main()
